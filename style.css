@@ -18,7 +18,7 @@
 
 .btn:hover {
     border: 2px solid #892be2;
-    background-color: #fff;
+    background-color: transparent;
     color: #000;
 }
 
@@ -31,6 +31,12 @@ h2 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
 }
 
 /* Header Style */
@@ -70,11 +76,6 @@ li {
 
 li:hover {
     border-bottom: 2px solid #fff;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
 }
 
 #header .header-text {
@@ -135,7 +136,7 @@ a {
 #products .card-container .card {
     text-align: center;
     box-shadow: 5px 5px 10px gray;
-    padding: 35px 15px;
+    padding: 40px 15px;
     border-radius: 10px;
 }
 
@@ -145,4 +146,47 @@ a {
 
 #products .card-container .card p {
     margin: 30px 0;
+}
+
+/* Contact */
+
+#contact .form-container {
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #80808085;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#contact input,
+#contact a {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+#contact .btn:hover {
+    border: 2px solid #892be2;
+    background-color: transparent;
+    color: #000;
+}
+
+.footer {
+    text-align: center;
+    background-color: #892be2;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer p {
+    padding: 20px 0;
+}
+
+.footer p>a {
+    margin: 0 20px;
 }
