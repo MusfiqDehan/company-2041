@@ -17,13 +17,20 @@
     <!-- Header/Home Section -->
     <header id="header">
         <!-- Navbar -->
-        <nav>
+        <nav id="navbar">
+            <div class="logo">
+                <h2><a href="#header">Travels.</a></h2>
+                <small>by MusfiqDehan</small>
+            </div>
             <ul>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="search">
+                <input type="text" placeholder="Search Here">
+            </div>
         </nav>
 
         <!-- Header Text Portion -->
@@ -45,7 +52,7 @@
         <section id="services">
             <h2>Services We are Providing</h2>
 
-            <div class="services-container">
+            <div class="services-container tablet">
                 <!-- Left Side -->
                 <div class="half">
                     <img src="images/services.png" alt="Our Services">
@@ -135,6 +142,8 @@
                     <a class="btn" href="#">Explore More</a>
                 </div>
             </div>
+
+            <a class="btn hidden-btn" href="#">See More</a>
         </section>
 
         <!-- Contact -->
@@ -149,13 +158,14 @@
     </main>
 
     <footer class="footer">
-        <p>
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-        </p>
-
-        <p>&copy; Md. Musfiqur Rahaman | 2022</p>
+        <div>
+            <p>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </p>
+            <p class="copyright">&copy; Md. Musfiqur Rahaman | 2022</p>
+        </div>
     </footer>
 </body>
 
