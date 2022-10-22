@@ -109,8 +109,11 @@ a {
     border-bottom: 2px solid #fff;
 }
 
-/* Navbar Menubar Design Finishes */
+#navbar .current {
+    border-bottom: 2px solid #fff;
+}
 
+/* Navbar Menubar Design Finishes */
 
 #navbar input {
     padding: 10px 20px;
@@ -133,7 +136,6 @@ a {
     justify-content: center;
     text-align: center;
 }
-
 
 #header .header-text {
     width: 50%;
